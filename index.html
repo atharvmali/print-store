@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Print Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Print Store</h1>
+
+  <!-- Upload Area -->
+  <div id="upload-area">
+    <p>Drag &amp; drop PDF files here, or click below to select files</p>
+    <input type="file" id="file-input" accept="application/pdf" multiple />
+  </div>
+
+  <!-- List of Uploaded PDFs -->
+  <div id="pdf-list"></div>
+
+  <!-- Cart Summary -->
+  <div id="cart-summary">
+    <h2>Order Summary</h2>
+    <p><strong>Total: ₹<span id="total-cost">0</span></strong></p>
+    <button id="checkout-btn">Checkout</button>
+  </div>
+
+  <!-- PDF.js (for reading PDF info) -->
+  <!-- NOTE: This version might change; ensure the worker version matches -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.13.216/pdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

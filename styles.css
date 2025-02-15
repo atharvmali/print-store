@@ -1,0 +1,124 @@
+/* --- Basic Styling --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f9f9f9;
+  }
+  
+  h1, h2, h3 {
+    margin: 0.5em 0;
+  }
+  
+  #upload-area {
+    background: #fff;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  #upload-area.dragover {
+    border-color: #999;
+    background: #f0f0f0;
+  }
+  
+  #pdf-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .pdf-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .pdf-header {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .pdf-header img {
+    width: 60px;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .pdf-info {
+    font-size: 0.9rem;
+    color: #444;
+  }
+  
+  .print-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  
+  .print-settings label {
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .print-settings select,
+  .print-settings input[type="number"] {
+    padding: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100px;
+  }
+  
+  .price-display {
+    margin-top: 6px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .remove-btn {
+    margin-top: 8px;
+    padding: 6px 10px;
+    border: none;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .remove-btn:hover {
+    background: #c0392b;
+  }
+  
+  #cart-summary {
+    background: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    max-width: 500px;
+  }
+  
+  #checkout-btn {
+    margin-top: 10px;
+    padding: 8px 16px;
+    border: none;
+    background: #27ae60;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #checkout-btn:hover {
+    background: #229954;
+  }
+  
